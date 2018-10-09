@@ -1,0 +1,20 @@
+True and True is True
+False and True is false
+1 == 1 and 2 == 1 is false
+"test" == "test" is true
+1 == 1 or 2 != 1 is true
+true and 1 == 1 is true
+false and 0 != 0 is false
+true or 1 == 1 is true
+"test" == "testing" is false
+1 != 0 and 2 ==1 is false
+"test" != "testing" is true
+"test" == 1 is false
+not (true and False) is true
+not (1 == 1 or 1000 == 1000) is false
+not (10 == 1 or 1000 = 1000) is false
+not (1 != 10 or 3 == 4) is false
+not ("testing" == "testing" and "Zed" == "Cool Guy") is True
+1 == 1 and (not ("testing" == 1 or 1 == 0)) True
+"chunky" == "bacon" and (not(3 == 4 or 3 == 3)) is false
+3 == 3 and (not("testing" == "testing" or "Python" == "Fun")) is false
