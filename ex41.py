@@ -60,13 +60,13 @@ def convert(snippet, phrase):
 
     results.append(result)
 
-return results
+    return results
 
 
 #keep going until they hit CTRL-D
 try:
     while True:
-        snippets = list(PHRASES.key())
+        snippets = list(PHRASES.keys())
         random.shuffle(snippets)
 
         for snippet in snippets:
