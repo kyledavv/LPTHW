@@ -1,0 +1,65 @@
+Brainstorming for game
+
+Process:
+-Write or draw about the problem
+-Extract key concepts from 1 and research them
+-Create a class hierarchy and object map for the concepts
+-Code the classes and a test to run them
+-Repeat and refine
+
+options: Eragon
+
+This will be a game that takes you through Eragon's process for finding a new
+haven to teach the new dragon rider generation. He is riding with Saphira to
+the east, finding new lands and deciding which place is the best for the
+dragons and the best place to be a training area. Eragon encounters different
+species of people, including dark elves, mini dragons, and giant trolls.
+He has to fight them or make peace with them with treaties, depending on the
+people. Eragon will lose if he makes the wrong choice, or if he chooses the
+wrong place to settle, dooming the dragon riders.
+
+Scenes with description:
+
+Lose - Eragon makes the wrong decision or doesn't get past the bad guys
+
+Saphira- Eragon is traveling on Saphira's back, going to new places.
+          This is the starting point since they are traveling searching
+          for new places.
+
+Forest - Saphira and Eragon are searching through forests to find habitable
+          places. They go from Saphira (on her back) to walking through the
+          forest.
+
+ElvesHome- Eragon encounters the dark elves, which are evil. They try to kill
+          him and Saphira, but if they make the right choices, they
+          will survive.
+
+GiantTrolls- huge ugly troll monsters that are easily defeated. Eragon and
+              Saphira kill them all easily, and encounter them after the elves.
+
+ParadiseLand- a land that seems perfect to raise the dragon riders and dragons.
+              but it turns out its too good to be true. All the food available
+              is poison, and Eragon almost dies until he realizes its poison.
+
+MiniDragons- Eragon and saphira find a mini dragon sanctuary. Turns out, these
+              dragons are a species variation of alagaesia dragons, but still
+              able to do magic, but are just smaller. They have vast amounts
+              of knowledge of the workings of the dragon line, big or small.
+              This is the place Eragon and Saphira should settle once they
+              trust the mini dragons and earn the mini dragons trust.
+
+
+*map
+ - next_scene
+ - opening_scene
+*Engine
+ - play
+*Scene
+- enter
+  -death
+  -Saphira
+  -forest
+  -elves
+  -trolls
+  -paradise
+  -dragons
