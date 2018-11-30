@@ -13,8 +13,6 @@ class Scene(object):
 
 class Engine(object):
 
-    var1 = 8
-
     def __init__(self, scene_map):
         self.scene_map = scene_map
 
